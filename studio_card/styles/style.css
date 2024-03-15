@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: center;
+  justify-items: center;
+  background-color: lightgray;
+}
+
+.studio {
+  display: grid;
+  border: 1px solid #0d0d0d;
+  background-color: white;
+  width: 75%;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.studio__header {
+  position: relative;
+  text-align: left;
+  font-size: 22px;
+}
+.studio__info {
+  color: #918a8a;
+}
+.studio__pricing {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.studio__yearcost {
+  display: grid;
+  font-size: 50px;
+  font-weight: 500;
+}
+.studio__monthcost {
+  margin-top: 40px;
+  display: grid;
+  font-size: 20px;
+  text-align: right;
+}
+.studio__year {
+  display: grid;
+  text-align: left;
+  color: #918a8a;
+}
+.studio__month {
+  display: grid;
+  text-align: right;
+  color: #918a8a;
+}
+.studio__features {
+  list-style-type: none;
+  padding: 0;
+  line-height: 30px;
+}
+.studio__feature span {
+  background-color: #918a8a;
+  color: white;
+  border-radius: 40%;
+  text-align: right;
+}
+
+.studio__button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.studio__button {
+  background-color: #EC520B;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 75px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 auto;
+}
+.studio__button:hover {
+  background-color: #ff7f00;
+}
+
+/*# sourceMappingURL=style.css.map */

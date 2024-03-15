@@ -3,36 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Studio Card</title>
   </head>
   <body>
-    <div class="studio__card">
-      <h3 class="studio__header">Studio</h3>
-      <p class="studio__info">For small or medium companies and freelancers</p>
-      <div class="studio__pricing">
-        <div class="studio__yearly">
-          <h1 class="studio__yearcost">$36</h1>
-          <label for="h1">per monthly billed yearly</label>
-        </div>
-        <div class="studio__monthly">
-          <h2 class="studio__monthcost">$40</h2>
-          <label for="h2">billed monthly</label>
-        </div>
+    <div class="studio">
+      <div class="studio__card-header">
+        <p class="studio__header">Studio</p>
+        <p class="studio__info">
+          For small or medium companies and freelancers
+        </p>
       </div>
+
+    <div class="studio__pricing">
+      <div class="studio__yearly">
+        <p class="studio__yearcost">$36</p>
+        <label class="studio__year" for="studio__yearcost">
+          per monthly billed yearly</label>
+      </div>
+      <div class="studio__monthly">
+        <p class="studio__monthcost">$40</p>
+        <label class="studio__month" for="studio__monthcost">
+          billed monthly</label>
+      </div>
+    </div>
+
+    <div class="studio__features-list">
       <ul class="studio__features">
-        <li>Unlimited published websites</li>
-        <li>50,000 views per month without branding</li>
-        <li>5 websites with custom domains</li>
-        <li>5 collaborators</li>
-        <li>PDF export</li>
-        <li>-</li>
-        <li>-</li>
-        <li>-</li>
-        <li>-</li>
+        <li class="studio__feature">Unlimited published websites</li>
+        <li class="studio__feature">50,000 views per month without branding</li>
+        <li class="studio__feature">5 websites with custom domains <span>﹖</span></li>
+        <li class="studio__feature">5 collaborators <span>﹖</span></li>
+        <li class="studio__feature">PDF export <span>﹖</span></li>
+        <li class="studio__feature">-</li>
+        <li class="studio__feature">-</li>
+        <li class="studio__feature">-</li>
+        <li class="studio__feature">-</li>
+        <li class="studio__feature">-</li>
       </ul>
-      <div class="button-container">
+    </div>
+    <div class="studio__button-container">
       <button class="studio__button">Subscribe</button>
     </div>
+  </div>
   </body>
 </html>
