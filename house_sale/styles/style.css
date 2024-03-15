@@ -1,0 +1,116 @@
+.listing {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 300px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  border-radius: 10px;
+}
+.listing .fa-heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  color: white;
+  font-size: 24px;
+}
+.listing__bgpic {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.listing__description {
+  padding-left: 20px;
+  padding-top: 15px;
+  margin: 5px 0;
+  color: #5f646f;
+  font-size: 13px;
+  font-weight: bold;
+}
+.listing__description span {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.listing__price {
+  font-size: 24px;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin: 5px 0;
+}
+.listing__address {
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #5f646f;
+  margin: 5px 0;
+}
+.listing__bb-container {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+.listing__bedrooms {
+  padding-left: 20px;
+  margin: 5px 0;
+  flex: 1;
+  color: #5f646f;
+}
+.listing__bedrooms span {
+  font-weight: bold;
+}
+.listing__bathrooms {
+  padding-left: 20px;
+  margin: 0px 0;
+  flex: 1;
+  color: #5f646f;
+}
+.listing__bathrooms span {
+  font-weight: bold;
+}
+.listing__realtor-details {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.listing__realtor-header {
+  margin-right: 10px;
+  position: absolute;
+  top: 0;
+  color: #5f646f;
+  font-size: 12px;
+  font-weight: bold;
+}
+.listing__realtor-content {
+  display: flex;
+  align-items: center;
+}
+.listing__realtor-pic-container {
+  margin-top: 30px;
+  margin-right: 10px;
+}
+.listing__realtor-profilepic {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.listing__realtor-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.listing__realtor-info-name {
+  margin-bottom: -12px;
+  margin-top: 18px;
+  font-weight: bold;
+}
+.listing__realtor-info-phone {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #5f646f;
+}
+
+/*# sourceMappingURL=style.css.map */

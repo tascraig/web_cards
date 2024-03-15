@@ -1,0 +1,59 @@
+
+
+.email-subscription {
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 35px 50px;
+    margin: 20px;
+    width: 740px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    &__header {
+        color: red;
+        font-size: 34px;
+    }
+
+    &__form {
+        margin-top: 40px;
+    }
+
+    &__input {
+        padding: 16px;
+        border: 2px solid red;
+        border-radius: 3px;
+        width: 320px;
+        &::placeholder {
+            color: pink;
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+
+    &__button {
+        width: 320px;
+        background-color: red;
+        color: white;
+        padding: 18px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: 600;
+
+        &:hover {
+            background-color: palevioletred;
+            transition: background-color .1s ease-in;
+        }
+    }
+
+    &__subtext {
+        color: gray;
+        font-size: 13px;
+    }
+
+    &__subtext span {
+        color: red;
+    }
+
+}
+
